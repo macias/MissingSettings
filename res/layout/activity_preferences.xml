@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"        
+        android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/uninstallButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:clickable="false"
+        android:longClickable="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/uninstall" />
+        
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:text="@string/how_to_uninstall"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <CheckedTextView
+            android:id="@+id/selectiveRotationSwitch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:clickable="true"
+            android:gravity="left|fill_vertical"
+            android:longClickable="false"
+            android:onClick="selectiveRotationClicked"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/selective_rotation_enabled" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:text="@string/selective_rotation_explanation"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <CheckedTextView
+            android:id="@+id/proximityLockSwitch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:clickable="true"
+            android:gravity="left|fill_vertical"
+            android:longClickable="false"
+            android:onClick="proximityLockClicked"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/proximity_lock_enabled" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:text="@string/proximity_lock_explanation"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+
+</RelativeLayout>
