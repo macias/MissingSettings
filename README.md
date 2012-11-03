@@ -5,16 +5,18 @@ To the point -- this app sports tiny system settings that I think they should be
 
 ##  Selective rotation 
 
-I.e. disable rotation on lock, when the phone is locked, and the screen goes on (on call, on wake up alarm) 
-rotation is disabled, this will help you get your phone from the pocket and hit the right button
-once the phone is unlocked, the auto-rotation is enabled
+When the phone is locked, and the screen goes on (on call, on wake up alarm) rotation is disabled. This will help you get your 
+phone from the pocket and hit the right button.
+
+Once the phone is unlocked, the auto-rotation is enabled.
                               
 ## Proximity lock 
 
-I.e. don't turn screen on in your pocket -- stock Android will turn the screen on when you hit home or 
-power button no matter if you are holding the phone, or if phone is in your pocket
-this feature uses proximity sensor to keep the screen off if the phone is in your pocket 
-(yes, I know, there is some 1 nanosecond screen flicker)
+I.e. don't turn screen on in your pocket. Stock Android will turn the screen on when you hit home or 
+power button no matter if you are holding the phone, or if phone is in your pocket.
+
+This feature uses proximity sensor to keep the screen off if the phone is in your pocket 
+(yes, I know, there is some 1 nanosecond screen flicker).
                     
 Use case: you have phone in your pocket, you receive the call, you grab your phone and... the screen is 
 turned off and the phone is still ringing. Don't panic, just press the home or power button as you did, 
